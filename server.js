@@ -15,9 +15,7 @@ app.use(cors());
   connection: {
     
       connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: false
-  }
+  ssl: true,
 }
 });
 
