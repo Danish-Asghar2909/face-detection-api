@@ -125,6 +125,6 @@ app.put('/image',(req , res)=>{
 
 
 
-app.listen(8000,()=>{
-	console.log('app is running');
+app.listen(process.env.PORT || 8000,()=>{
+	console.log('app is running ${process.env.PORT}');
 })

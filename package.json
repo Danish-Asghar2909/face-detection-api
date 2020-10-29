@@ -1,12 +1,11 @@
 {
   "name": "yes",
-  "homepage": "https://Danish-Asghar2909.github.io/face-detection-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
+    
     "start": "nodemon server.js"
   },
   "author": "",
